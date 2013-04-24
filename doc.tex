@@ -1,0 +1,57 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[magyar]{babel}
+\usepackage[T1]{fontenc} 
+\usepackage[utf8x]{inputenc}
+\usepackage{hyperref}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{parskip}
+\usepackage{ae,aecompl}
+\setcounter{secnumdepth}{3}
+\hypersetup{linktocpage,hidelinks}
+\usepackage{framed}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+%\makeindex
+
+\pagenumbering{gobble}
+
+\title{Programfejlesztés Scala nyelven: \\ Gépi tanulás magasabbrendű függvényekkel}
+\author{Rigó Ádám}
+
+\begin{document}
+\maketitle
+\newpage
+\tableofcontents
+
+%%%%%%%%%%%%%%%
+
+\newpage
+\pagenumbering{arabic}
+\setcounter{page}{1}
+
+%% Bevezető
+\input{bevezeto.tex}
+
+%% A Scala nyelvről
+\input{scala.tex}
+
+%% Vizsgált algoritmusok
+\input{mi.tex}
+
+%% Tervezési problémák
+\input{tervezes.tex}
+
+%% Tárgymutató
+%\newpage
+%\printindex
+
+%%%%%%%%%%%%%%%
+
+\end{document}
